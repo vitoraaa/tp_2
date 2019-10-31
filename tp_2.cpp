@@ -1,4 +1,3 @@
-
 #include "pch.h"
 #include <iostream>
 #include "Matriz.h"
@@ -34,15 +33,16 @@ int main()
 	cout << "C \n" << C;
 	C *= A; // multiplicação de matrizes
 	cout << "C \n" << C;
+	A = C;
 	if (A == C) {
 		printf("A e igual a C");
 	}
-	else printf("A e diferente de C");
+	else printf("A e diferente de C\n");
 	// verifica a igualdade entre A e C
 	if (X != Y) {
-		printf("X e diferente de Y");
+		printf("X e diferente de Y\n");
 	}
-	else printf("X e igual Y"); // verifica a desigualdade entre A e C
+	else printf("X e igual Y\n"); // verifica a desigualdade entre A e C
 
 	cout << C << endl; // Impressão de matrizes
 	cin >> Y;

@@ -4,8 +4,6 @@
 #include <vector>
 using namespace std;
 
-
-
 Matriz::Matriz(int linhas, int colunas, const double& valor) {
 
 	if (linhas > 0 && colunas > 0) {
